@@ -42,8 +42,7 @@ Next, access the VM via Remote Desktop Protocol (RDP). Copy the Public IPv4 addr
 <br />
 
 <p>
-<img src="![Screenshot 2025-03-13 145339](https://github.com/user-attachments/assets/87e94210-9fd6-4c0a-9fe7-6125869b25af)
-"/>
+<img src="https://i.imgur.com/52Z0yhu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files” link: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
@@ -51,7 +50,7 @@ Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and un
 <br />
 
 <p>
-<img src="https://i.imgur.com/2VqhhFo.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2cHxUZb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After connecting to the VM, enable IIS by opening the Control Panel and going to Turn Windows Features On or Off. Scroll down to find Internet Information Services (IIS), then check the box to enable it.
@@ -61,12 +60,19 @@ After connecting to the VM, enable IIS by opening the Control Panel and going to
 <br />
 
 <p>
-<img src="https://i.imgur.com/jdy6kVT" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/d3bMyU1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install / Enable IIS in Windows WITH CGI; World Wide Web Services -> Application Development Features -> [X] CGI
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/e20iOem.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next, download all the required files using the provided link to install and set up osTicket. Then, from the osTicket Installation folder, find and install PHP Manager to continue with the installation process.  
-
-  Link: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
 </p>
 <br />
 
@@ -88,7 +94,7 @@ Create the directory C:\PHP. Unzip the file PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-
 <br />
 
 <p>
-<img src="https://i.imgur.com/vnapOUJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NVyCzcl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Install VC_redist.x86.exe from the osTicket Installation folder to ensure the necessary Visual C++ Redistributable components are in place.
@@ -96,10 +102,10 @@ Install VC_redist.x86.exe from the osTicket Installation folder to ensure the ne
 <br />
 
 <p>
-<img src="https://i.imgur.com/6Ni4PkJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7xckLu7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install MySQL 5.5.62 (mysql-5.5.62-win32.msi) from the osTicket Installation folder to set up the MySQL database server.
+Install MySQL 5.5.62 (mysql-5.5.62-win32.msi) from the osTicket Installation folder to set up the MySQL database server, and make sure it is installed under "typical" setup.
 </p>
 <br />
 
