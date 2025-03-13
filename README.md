@@ -37,7 +37,16 @@ We start by creating a resource group in Microsft Azure and name it osTicket. Th
 <img src="https://i.imgur.com/H2B3g7x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next, access the VM via Remote Desktop Protocol (RDP). Copy the Public IPv4 address listed in the Azure portal for the VM and use it to establish the RDP connection.
+Next, access the VM via Remote Desktop Protocol (RDP). Copy the Public IPv4 address listed in the Azure portal for the VM and use it to establish the RDP connection. 
+</p>
+<br />
+
+<p>
+<img src="![Screenshot 2025-03-13 145339](https://github.com/user-attachments/assets/87e94210-9fd6-4c0a-9fe7-6125869b25af)
+"/>
+</p>
+<p>
+Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files” link: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
 </p>
 <br />
 
