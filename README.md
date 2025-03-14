@@ -110,6 +110,15 @@ Install MySQL 5.5.62 (mysql-5.5.62-win32.msi) from the osTicket Installation fol
 <br />
 
 <p>
+<img src="https://i.imgur.com/WBQSucH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fq4Kkg5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Launch Configuration Wizard (after install) of MySQL 5.5.62, install it as Standard configuration. Then write your username and password.
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/HFBKqHa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -118,7 +127,7 @@ Open IIS Manager as an administrator. Register PHP within IIS by configuring the
 <br />
 
 <p>
-<img src="https://i.imgur.com/dUEDOI2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fitmI5n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 From the osTicket-Installation-Files folder, unzip osTicket-v1.15.8.zip and copy the upload folder to C:\inetpub\wwwroot. Then, within C:\inetpub\wwwroot, rename the upload folder to osTicket.
@@ -129,12 +138,12 @@ From the osTicket-Installation-Files folder, unzip osTicket-v1.15.8.zip and copy
 <img src="https://i.imgur.com/ofoOo0Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go back to IIS Manager and restart the server. To enable the required PHP extensions, go to Sites > Default > osTicket, then double-click on PHP Manager. Choose the option "Disable or enable an extension" and enable the extensions php_intl.dll, php_opcache.dll, and php_imap.dll. Once done, refresh the osTicket web server and confirm that the Intl Extension is now active.
+Go to sites > Default > osTicket, and on the right, click “Browse *:80”. Then go back to IIS Manager and restart the server. To enable the required PHP extensions, go to Sites > Default > osTicket, then double-click on PHP Manager. Choose the option "Disable or enable an extension" and enable the extensions php_intl.dll, php_opcache.dll, and php_imap.dll. Once done, refresh the osTicket web server and confirm that the Intl Extension is now active.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/JEdBG6b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kDz5poj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Navigate to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename the file to ost-config.php in the same directory (C:\inetpub\wwwroot\osTicket\include).
@@ -150,7 +159,7 @@ Assign the appropriate permissions to ost-config.php by right-clicking the file 
 <br />
 
 <p>
-<img src="https://i.imgur.com/HZnNtf2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mP8jmqK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Finally, continue the osTicket setup in your browser by clicking Continue. Assign a name to your helpdesk according to your preference, and choose a default email address to receive notifications for customer-submitted tickets. Congratulations, your setup is complete!
